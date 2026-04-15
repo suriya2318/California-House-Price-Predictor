@@ -67,25 +67,39 @@ The goal of this project is to build an accurate and interpretable Linear Regres
 
 • Saved the trained model using pickle for future inference.
 
-Charts & Visualizations Overview
+## Charts & Visualizations Overview
 
-Chart 1: Feature Distributions (Histogram Grid)
+### Chart 1: Feature Distributions (Histogram Grid)
 • Displays the frequency distribution of all 9 features across 20,640 housing blocks.
+
 • Reveals right-skewed distributions for MedInc and Population indicating outliers.
+
 • Helps identify the data shape before model training.
-Chart 2: Correlation Heatmap
+
+### Chart 2: Correlation Heatmap
 • Shows pairwise correlation between all features and the target variable.
+
 • Confirms MedInc as the strongest predictor of house price (r ≈ 0.69).
+
 • Highlights negative correlation of AveOccup with price.
-Chart 3: Actual vs. Predicted Scatter Plot
+
+### Chart 3: Actual vs. Predicted Scatter Plot
 • Compares the model's predictions against real house prices on the test set.
+
 • A perfect model would place all dots on the red dashed diagonal line.
+
 • Shows the model performs well for low-to-mid priced homes but under-predicts expensive ones.
-Chart 4: Residual Plot
+
+### Chart 4: Residual Plot
 • Plots the difference between actual and predicted values against predicted values.
+
 • Ideal residuals scatter randomly around zero — patterns indicate missed non-linearity.
+
 • Our model shows slight under-prediction at higher price ranges.
-Chart 5: Feature Coefficients Bar Chart
+
+### Chart 5: Feature Coefficients Bar Chart
 • Visualizes the impact and direction of each feature on the predicted house price.
+
 • MedInc has the largest positive coefficient — income drives price most strongly.
+
 • AveOccup has a notable negative coefficient — overcrowded blocks cost less.
