@@ -114,4 +114,17 @@ The goal of this project is to build an accurate and interpretable Linear Regres
 
 ![Feature Coefficients](https://github.com/suriya2318/California-House-Price-Predictor/blob/main/correlation.png)
 
+## Project Insights
+
+• MedInc is the single strongest predictor of house prices — higher income neighborhoods are consistently more expensive.
+• A direct positive relationship exists between geographic location and house price — coastal California neighborhoods command significantly higher prices.
+• AveOccup has a negative effect on price — blocks with more people per household tend to have lower median house values.
+• The model predicts low-to-mid priced homes well but underestimates very expensive properties, a known limitation of linear models.
+• Zero missing values were found in the dataset — no imputation was required, confirming high data quality.
+• Feature scaling with StandardScaler was critical — without it, features with larger numerical ranges (like Population) would dominate the model unfairly.
+• An R² of 0.666 confirms that 66.6% of price variation is explained by the 8 features, leaving room for non-linear models to capture the remaining 33.4%.
+• The residual plot reveals mild heteroscedasticity at higher price ranges, suggesting that non-linear algorithms like Random Forest or XGBoost would reduce prediction errors significantly.
+
+## Final Conclusion
+This California House Price Predictor project successfully demonstrates the complete Machine Learning lifecycle — from raw data loading and exploratory analysis through preprocessing, model training, evaluation, and professional reporting. The Linear Regression model achieved an R² score of 0.666, a MAE of 0.5861 ($58,610 average error), and an RMSE of 0.7539 on the test set, representing a solid baseline performance for a linear model. By investing in advanced techniques such as Ridge/Lasso regularization, polynomial feature engineering, and tree-based models like Random Forest or Gradient Boosting, prediction accuracy can be improved to R² scores of 0.85 and above. This project provides a strong, reproducible foundation for building more sophisticated house price prediction systems and demonstrates core data science competencies including EDA, feature engineering, model evaluation, and data storytelling through visualization.
 
