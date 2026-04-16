@@ -76,7 +76,7 @@ The goal of this project is to build an accurate and interpretable Linear Regres
 
 • Helps identify the data shape before model training.
 
- ![Feature Distributions](https://github.com/user-attachments/assets/7142a320-2db6-4f51-99cb-2144e43f09bf)
+ ![Feature Distributions]([https://github.com/user-attachments/assets/7142a320-2db6-4f51-99cb-2144e43f09bf](https://github.com/suriya2318/California-House-Price-Predictor/blob/main/Feature%20Distributions.png))
 
 ### Chart 2: Correlation Heatmap
 • Shows pairwise correlation between all features and the target variable.
