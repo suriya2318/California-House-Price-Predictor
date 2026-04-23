@@ -135,3 +135,6 @@ The goal of this project is to build an accurate and interpretable Linear Regres
 ## Final Conclusion
 This California House Price Predictor project successfully demonstrates the complete Machine Learning lifecycle — from raw data loading and exploratory analysis through preprocessing, model training, evaluation, and professional reporting. The Linear Regression model achieved an R² score of 0.666, a MAE of 0.5861 ($58,610 average error), and an RMSE of 0.7539 on the test set, representing a solid baseline performance for a linear model. By investing in advanced techniques such as Ridge/Lasso regularization, polynomial feature engineering, and tree-based models like Random Forest or Gradient Boosting, prediction accuracy can be improved to R² scores of 0.85 and above. This project provides a strong, reproducible foundation for building more sophisticated house price prediction systems and demonstrates core data science competencies including EDA, feature engineering, model evaluation, and data storytelling through visualization.
 
+# Source Code : 
+- <a href= "https://github.com/suriya2318/California-House-Price-Predictor/blob/main/task1_ml_linear_regression.ipynb"> California House Price Predictor Source Code </a>
+
